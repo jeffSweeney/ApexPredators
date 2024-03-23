@@ -16,17 +16,6 @@ struct ApexPredator: Decodable, Identifiable {
     let movies: [String]
     let movieScenes: [MovieScene]
     let link: String
-    
-    private enum CodingKeys: String, CodingKey {
-        case id
-        case name
-        case type
-        case latitude
-        case longitude
-        case movies
-        case movieScenes = "movie_scenes"
-        case link
-    }
 }
 
 enum PredatorType: Decodable {
@@ -56,11 +45,5 @@ struct MovieScene: Decodable, Identifiable {
     let id: Int
     let movie: String
     let sceneDescription: String
-    
-    private enum CodingKeys: String, CodingKey {
-        case id
-        case movie
-        case sceneDescription = "scene_description"
-    }
 }
 
