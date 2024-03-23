@@ -51,8 +51,9 @@
 		E061408A2BAF496400C0E6C5 /* ApexPredators */ = {
 			isa = PBXGroup;
 			children = (
-				E061408B2BAF496400C0E6C5 /* ApexPredatorsApp.swift */,
-				E061408D2BAF496400C0E6C5 /* ContentView.swift */,
+				E061409A2BAF637600C0E6C5 /* App */,
+				E061409B2BAF637A00C0E6C5 /* Core */,
+				E06140992BAF636900C0E6C5 /* Models */,
 				E061408F2BAF496500C0E6C5 /* Assets.xcassets */,
 				E06140912BAF496500C0E6C5 /* Preview Content */,
 			);
@@ -65,6 +66,37 @@
 				E06140922BAF496500C0E6C5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E06140992BAF636900C0E6C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E061409A2BAF637600C0E6C5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E061408B2BAF496400C0E6C5 /* ApexPredatorsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E061409B2BAF637A00C0E6C5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E061409D2BAF639700C0E6C5 /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E061409D2BAF639700C0E6C5 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				E061408D2BAF496400C0E6C5 /* ContentView.swift */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
