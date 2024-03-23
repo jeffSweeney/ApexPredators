@@ -11,6 +11,7 @@
 		E061408E2BAF496400C0E6C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E061408D2BAF496400C0E6C5 /* ContentView.swift */; };
 		E06140902BAF496500C0E6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E061408F2BAF496500C0E6C5 /* Assets.xcassets */; };
 		E06140932BAF496500C0E6C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E06140922BAF496500C0E6C5 /* Preview Assets.xcassets */; };
+		E061409F2BAF6A5600C0E6C5 /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = E061409E2BAF6A5600C0E6C5 /* jpapexpredators.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E061408D2BAF496400C0E6C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E061408F2BAF496500C0E6C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E06140922BAF496500C0E6C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E061409E2BAF6A5600C0E6C5 /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jpapexpredators.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				E061409A2BAF637600C0E6C5 /* App */,
 				E061409B2BAF637A00C0E6C5 /* Core */,
+				E06140A02BAF6A6900C0E6C5 /* Data */,
 				E06140992BAF636900C0E6C5 /* Models */,
 				E061408F2BAF496500C0E6C5 /* Assets.xcassets */,
 				E06140912BAF496500C0E6C5 /* Preview Content */,
@@ -97,6 +100,14 @@
 				E061408D2BAF496400C0E6C5 /* ContentView.swift */,
 			);
 			path = Root;
+			sourceTree = "<group>";
+		};
+		E06140A02BAF6A6900C0E6C5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E061409E2BAF6A5600C0E6C5 /* jpapexpredators.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 			files = (
 				E06140932BAF496500C0E6C5 /* Preview Assets.xcassets in Resources */,
 				E06140902BAF496500C0E6C5 /* Assets.xcassets in Resources */,
+				E061409F2BAF6A5600C0E6C5 /* jpapexpredators.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
