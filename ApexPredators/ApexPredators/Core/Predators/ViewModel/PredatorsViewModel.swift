@@ -1,5 +1,5 @@
 //
-//  Predators.swift
+//  PredatorsViewModel.swift
 //  ApexPredators
 //
 //  Created by Jeffrey Sweeney on 3/23/24.
