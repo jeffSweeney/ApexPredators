@@ -5,7 +5,7 @@
 //  Created by Jeffrey Sweeney on 3/23/24.
 //
 
-import Foundation
+import SwiftUI
 
 struct ApexPredator: Decodable, Identifiable {
     let id: Int
@@ -16,6 +16,10 @@ struct ApexPredator: Decodable, Identifiable {
     let movies: [String]
     let movieScenes: [MovieScene]
     let link: String
+    
+    var image: String {
+        name.lowercased().replacingOccurrences(of: " ", with: "")
+    }
 }
 
 enum PredatorType: Decodable {
@@ -37,6 +41,15 @@ enum PredatorType: Decodable {
             self = .sea
         default:
             self = .unknown
+        }
+    }
+    
+    var label: (name: String, color: Color) {
+        switch self {
+        case .air: ("Air", .teal)
+        case .land: ("Land", .brown)
+        case .sea: ("Sea", .blue)
+        case .unknown: ("Unknown", .gray)
         }
     }
 }
